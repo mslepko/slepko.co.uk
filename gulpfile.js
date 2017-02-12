@@ -21,7 +21,7 @@ gulp.task('minify-html', function () {
 });
 
 gulp.task('clean', function() {
-	del(['dist/*.html']).then(paths => {
+	del(['dist/*.html']).then(function(paths) {
     	console.log('Deleted files and folders:\n', paths.join('\n'));
 	});
 
