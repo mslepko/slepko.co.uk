@@ -4,10 +4,10 @@
   "description": "My website",
   "main": "index.html",
   "devDependencies": {
-    "del": "^2.2.2",
-    "gulp": "^3.9.1",
-    "gulp-minify-html": "^1.0.6",
-    "gulp-minify-inline": "^0.2.1",
+    "del": "*",
+    "gulp": "^4.0.0",
+    "gulp-minify-html": "*",
+    "gulp-minify-inline": "*",
     "gulp-copy": "*"
   },
   "repository": {
